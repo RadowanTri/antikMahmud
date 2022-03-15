@@ -310,7 +310,6 @@
         width: 10px;
         margin: 0;
     }
-    
     .price-wrap label {
         font-size: 18px;
         line-height: 1.2em;
@@ -322,7 +321,6 @@
         box-shadow: 0 0 0 0.5px #fff;
         transition-duration: 0.3s;
     }
-    
     .price-field input[type=range]:active::-webkit-slider-thumb {
         box-shadow: 0 0 0 0.5px #fff;
         transition-duration: 0.3s;
