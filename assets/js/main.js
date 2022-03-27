@@ -4,15 +4,6 @@ $(document).ready(function($) {
         $(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
     });
 
-    //   var header = $(".header-area");
-    //     $(window).on('scroll', function () {
-    //         if ($(this).scrollTop() < 1) {
-    //         header.removeClass("nav-fixed");
-    //         } else {
-    //         header.addClass("nav-fixed");
-    //         }
-    //     });
-    // smartSpeed: 5000,
     // Banner slider
     var $companiesSlider = $(".home-slider");
     $companiesSlider.owlCarousel({
@@ -198,7 +189,11 @@ $(document).ready(function($) {
     });
 
 
-
+    // counter
+    $('.counter').counterUp({
+        delay: 50,
+        time: 1000
+      });
 
 
 

@@ -13,12 +13,24 @@
     .h-banner .banner-title {
         font-size: 70px;
     }
+    .about-des{
+        padding-left: 50px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1367px) {
     .home-slider.owl-theme .owl-dots {
         left: 10%;
     }
+    .t18 {
+        font-size: 15px;
+    }
+    .price-wrap label {
+        font-size: 15px;
+    }
+
+ 
+    
 }
 
 
@@ -76,6 +88,14 @@
     .fav-book .fav-content .book-title {
         position: relative;
         margin-top: -35px;
+    }
+
+    /* .single-comic */
+    .slick-prev {
+        left: 8px;
+    }
+    .slick-next {
+        right: 8px;
     }
 }
 

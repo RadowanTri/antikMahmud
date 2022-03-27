@@ -146,7 +146,12 @@
    @media (min-width: 1200px) and (max-width: 1600px) {}
    /* Medium Layout: 1280px. */
    
-   @media (min-width: 992px) and (max-width: 1367px) {}
+   @media (min-width: 992px) and (max-width: 1367px) {
+        .footer .f-link-h ul li a {
+            font-size: 15px;
+        }
+        
+   }
    /* Tablet Layout: 768px. */
    
    @media (min-width: 768px) and (max-width: 991px) {}
