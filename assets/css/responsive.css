@@ -8,12 +8,12 @@
     }
     .h-banner {
         clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 97%);
-           min-height: calc(100vh - 90px);
+        min-height: calc(100vh - 90px);
     }
     .h-banner .banner-title {
         font-size: 70px;
     }
-    .about-des{
+    .about-des {
         padding-left: 50px;
     }
 }
@@ -28,9 +28,6 @@
     .price-wrap label {
         font-size: 15px;
     }
-
- 
-    
 }
 
 
@@ -61,6 +58,50 @@
     .banner-heading {
         padding-left: 45px;
     }
+    .login-page img.shape-img-1 {
+        display: none;
+    }
+    .login.pt-120 {
+        padding-top: 35px;
+    }
+    .login-page img.shape-img {
+        width: 50%;
+    }
+    .spder2-lgo,
+    .spi-lgo {
+        display: none;
+    }
+    .pt-70 {
+        padding-top: 30px;
+    }
+    .log-t {
+        font-weight: 600;
+        font-size: 30px;
+        color: #231F20;
+    }
+    .log-s-t p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .login-wrapper .mb-25 {
+        margin-bottom: 15px;
+    }
+    .log-s-t {
+        padding-bottom: 0px;
+    }
+    .l-lgo img {
+        max-width: 120px;
+    }
+    .validation input {
+        width: 45px;
+    }
+    .validation {
+        gap: 15px;
+        padding: 10px 0px;
+    }
+    .e-email-a {
+        padding: 10px 0px;
+    }
 }
 
 
@@ -89,13 +130,15 @@
         position: relative;
         margin-top: -35px;
     }
-
     /* .single-comic */
     .slick-prev {
         left: 8px;
     }
     .slick-next {
         right: 8px;
+    }
+    .validation input {
+        width: 35px;
     }
 }
 
