@@ -17,8 +17,17 @@
     .about-des {
         padding-left: 50px;
     }
-     .process .terms label br{
-         display: block;
+    .process .terms label br {
+        display: block;
+    }
+    .count-banner .cunt-l {
+        position: absolute;
+        bottom: -50%;
+    }
+    .count-banner .cunt-r {
+        position: absolute;
+        right: 0;
+        top: -15%;
     }
 }
 
@@ -32,14 +41,16 @@
     .price-wrap label {
         font-size: 15px;
     }
+    .count-banner .cunt-l,
+    .count-banner .cunt-r {
+        max-width: 150px;
+    }
 }
 
 
 /* Medium Layout: 1280px. */
 
-@media (min-width: 992px) and (max-width: 1200px) {
-   
-}
+@media (min-width: 992px) and (max-width: 1200px) {}
 
 
 /* Tablet Layout: 768px. */
@@ -108,8 +119,6 @@
     .e-email-a {
         padding: 10px 0px;
     }
-
-    
 }
 
 
