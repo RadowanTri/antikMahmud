@@ -1,4 +1,5 @@
 @media (min-width: 1199px) {
+    .process .checkout-btn .yellow-btn,
     .com-bor-btn,
     .cmn-btn-red {
         padding: 10px 30px;
@@ -15,6 +16,9 @@
     }
     .about-des {
         padding-left: 50px;
+    }
+     .process .terms label br{
+         display: block;
     }
 }
 
@@ -33,7 +37,9 @@
 
 /* Medium Layout: 1280px. */
 
-@media (min-width: 992px) and (max-width: 1200px) {}
+@media (min-width: 992px) and (max-width: 1200px) {
+   
+}
 
 
 /* Tablet Layout: 768px. */
@@ -102,6 +108,8 @@
     .e-email-a {
         padding: 10px 0px;
     }
+
+    
 }
 
 
