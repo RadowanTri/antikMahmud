@@ -792,3 +792,8 @@
     .process .terms label br {
         display: none;
     }
+    /* review-page */
+    
+    .review-page .review-content-n .single-comic {
+        padding: 15px;
+    }
