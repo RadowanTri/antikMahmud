@@ -195,6 +195,7 @@ $(document).ready(function($) {
         time: 1000
       });
 
-
+// price
+    
 
 }(jQuery));

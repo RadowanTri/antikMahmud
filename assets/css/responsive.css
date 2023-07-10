@@ -148,14 +148,18 @@
         margin-top: -35px;
     }
     /* .single-comic */
-    .slick-prev {
-        left: 8px;
+    .single-comic-page  .slick-prev {
+        left: 8px ;
     }
-    .slick-next {
-        right: 8px;
+    .single-comic-page  .slick-next {
+        right: 8px ;
     }
     .validation input {
         width: 35px;
+    }
+    .footer .f-link-h .f-icons-f .location {
+        width: auto;
+        height: 27px;
     }
 }
 

@@ -199,7 +199,6 @@
         box-sizing: border-box;
         border-radius: 5px;
         pointer-events: none;
-        -webkit-appearance: none;
     }
     
     .price-field input[type=range]::-webkit-slider-thumb {
@@ -415,7 +414,7 @@
     /* Arrows */
     
     .single-comic-page .slick-prev,
-    .slick-next {
+    .single-comic-page .slick-next {
         position: absolute;
         top: 50%;
         display: block;
@@ -433,6 +432,7 @@
         border-radius: 4px;
         color: #DADADA;
         background: transparent;
+        z-index: 1;
     }
     
     .single-comic-page .slick-prev {
@@ -797,3 +797,124 @@
     .review-page .review-content-n .single-comic {
         padding: 15px;
     }
+
+    /* index 2 */
+    .hard-copy-btn {
+        display: inline-block;
+        position: absolute;
+        right: -4%;
+        top: -10px;
+    }
+
+    .hard-copy-btn  .cmn-btn-red {
+        font-size: 14px;
+        padding: 6px 12px;
+        border-radius: 4px;
+
+    }
+
+    .author-name .t-16{
+        color: #717171;
+    }
+.quantityitem{
+    margin-bottom: 10px;
+}
+
+    .spinNumber{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        margin-left: 12px;
+    }
+    .book-select  .terms{
+        width: 45%;
+    }
+   .book-select  .terms label{
+        margin-top: 0;
+    }
+    .spinNumber .incrimentButton,
+    .spinNumber .decrimentButton{
+         width: 40px;
+         height: 40px;
+         text-align: center;
+         background: #c6f5f53b;
+         line-height: 40px;
+         cursor: pointer;
+         border-radius: 0px 4px 4px 0px;
+        background: #B1B8BE;
+     }
+    
+      .spinNumber .incrimentButton{
+        border-radius: 4px 0px 0px 4px;
+     }
+    .spinNumber input{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        color: #231F20;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+         background: #fff;
+         text-align: center;
+ 
+     }
+
+ 
+     .f-control {
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        color: #212529;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border-radius: 6px;
+        border: 1px solid #8692A6;
+    }
+
+   .size-wrapper .spinNumber {
+        justify-content: left;
+        gap: 5px;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    .size-wrapper ul{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 12px -9px 12px 0;
+    }
+    .size-item {
+  
+        padding: 0 10px 10px 0;
+
+        min-width: 60px;
+        margin-bottom: 0;
+    }
+    
+    
+    .size-btn:focus, .size-btn:hover{
+        border-color: #FE3C3A;
+        color: #FE3C3A;
+    }
+    .size-btn {
+        width: 100%;
+        background: #fff;
+        border: 2px solid #B1B8BE;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px 5px;
+        display: block;
+        text-align: center;
+        word-wrap: break-word;
+        border-radius: 4px;
+    }
+    

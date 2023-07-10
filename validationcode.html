@@ -15,10 +15,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700;1,800&display=swap" rel="stylesheet">
     <!--=== Bootstrap 5 ===-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--=== Owl carousel 2.3.4===-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!--=== Magnific PopUp ===-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
     <!--=== Main Css ===-->
     <link rel="stylesheet" href="assets/css/default.css">
     <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/login.css">
     <!--=== Style & Responsive  Css ===-->
     <link rel="stylesheet" href="assets/css/style.css">
     <!--=== Responsive Css ===-->
@@ -27,60 +31,159 @@
 </head>
 
 <body>
-    <!-- header start -->
-    <section class="forget-page">
-        <img class="shape-img" src="assets/img/login/t-shape.png" alt="">
-        <div class="login pt-120">
-            <div class="container">
-                <div class="row  align-items-center justify-content-center">
-                    <div class="col-md-3 d-lg-flex justify-content-between align-items-center mb-20">
-                        <div class="l-lgo ">
-                            <a href="#"><img src="assets/img/login/c-logo.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-20">
-                        <div class="login-wrapper text-center">
-                            <h2 class="log-t ">Code</h2>
-                            <form action="">
-                                <div class="validation">
-                                    <input type="number" maxlength="1" class="code-input" name="number" required>
-                                    <input type="number" maxlength="1" class="code-input" name="number" required>
-                                    <input type="number" max="1" class="code-input" name="number" required>
-                                    <input type="number" class="code-input" name="number" required>
-                                    <input type="number" class="code-input" name="number" required>
-                                    <input type="number" class="code-input" name="number" required>
-                                </div>
-                            </form>
 
-                            <div class="log-s-t  pt-10">
-                                <p> <span class="red-c ">*</span> Please write your code which is send in your email</p>
+<style type="text/css">
+    .price{
+        position: relative;
+    }
+    .price nav{
+          border-bottom: 1px solid #312783;
+    } 
+  
+    .price a.button-tab {
+    border-radius: 10px 10px 0 0;
+    padding:10px 20px;
+    margin:0px 10px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #282626;
+    background: rgba(49, 39, 131, 0.1);
+    border-radius: 6px 6px 0px 0px;
+    /*width: calc(100%/4);*/
+    background-position: center 20px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+  .price a.button-tab:first-child{
+        margin:0px 0px;
+    } 
+    .price a.button-tab:last-child{
+        margin:0px 0px;
+    } 
+.price a.button-tab:hover,
+ .price a.button-tab.active {
+    background: #312783; 
+    color: #FFFFFF;
+}
+</style>
+<section class="homepageWrapper">
+
+    <div id="price" class="price" >
+        <div class="container box " >
+                <nav class="nav justify-content-center" id="price-link">
+                    <a class="cloud-service button-tab tab-0 url active" href="#cloud-service ">Cloud Service</a>
+                    <a class="software-development button-tab tab-1 url" href="#software-development">Custom Software Development</a>
+                    
+                    <a class="app-development  button-tab tab-2 url" href="#app-development">Mobile App Development </a>
+                    <a class="survellance-scurity button-tab tab-3 url" href="#export-to-csv">Survellance Security</a>
+                </nav>
+                <div class="row">
+                    <div class="com-slider price-carousel owl-carousel owl-theme ">
+                        <div class="price-item nav align-items-center justify-content-between" data-hash="cloud-service">
+                            <div class="col-md-4">
+                                basic
+                            </div><div class="col-md-4">
+                                FDG
+                            </div><div class="col-md-4">
+                                FDG
                             </div>
-
-
+                            
+                        </div> 
+                        <div class="price-item nav align-items-center justify-content-between" data-hash="software-development">
+                            <div class="col-md-4">
+                                FDG
+                            </div><div class="col-md-4">
+                                FDG
+                            </div><div class="col-md-4">
+                                FDG
+                            </div>
+                            
                         </div>
-                    </div>
-                    <div class="col-md-3 d-lg-flex justify-content-start align-items-start">
-                        <div class="spi-lgo">
-                            <img src="assets/img/login/spider4.png" alt="">
+                        <div class="price-item nav align-items-center justify-content-between" data-hash="app-development">
+                            <div class="col-md-4">
+                                FDG
+                            </div><div class="col-md-4">
+                                FDG
+                            </div><div class="col-md-4">
+                                FDG
+                            </div>
+                            
                         </div>
+                        <div class="price-item nav align-items-center justify-content-between" data-hash="survellance-scurity">
+                            <div class="col-md-4">
+                                FDG
+                            </div><div class="col-md-4">
+                                FDG
+                            </div><div class="col-md-4">
+                                FDG
+                            </div>
+                            
+                        </div>
+                        
                     </div>
+                   
                 </div>
-            </div>
-
         </div>
-        <img class="shape-img-1" src="assets/img/login/b-shape.png" alt="">
-    </section>
+    </div>
+    
+  
+
+</section>
+  
+ <div class="offer-slide-img">
+                                        <img src="assets/img/service/website1.png" loading="lazy" alt="website1">
+                                    </div>
 
 
-    <!--=== All Plugin ===-->
+
+      <!--=== All Plugin ===-->
     <!--============= Jquery-3.6.0 =============-->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <!--=== Popper  v2.9.2 js ===-->
     <script src="assets/js/popper.min.js"></script>
     <!--=== Bootstrap 5 js ===-->
     <script src="assets/js/bootstrap.min.js"></script>
+    <!--=== owl carousel ===-->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!--=== magnific-popup ===-->
+    <script src="assets/js/magnific-popup.min.js"></script>
     <!--=== Main js ===-->
     <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+      
+               var priceOwl = $('#price .owl-carousel');
+            priceOwl.owlCarousel({
+                items: 1,
+                loop: true,
+                autoplay: false,
+                center: true,
+                margin: 10,
+                URLhashListener: true,
+                startPosition: 'URLHash',
+                dots: false,
+                nav:true,
+                  navText: [
+                    '<i class="fa fa-arrow-left"></i>',
+                    '<i class="fa fa-arrow-right"></i>',
+                ],
+                addClassActive: true
+            });
+            $(function(event) {
+                var hash = $(".owl-item.active").children().attr('data-hash');
+                $('.' + hash).addClass('active');
+            });
+            priceOwl.on('changed.owl.carousel', function(event) {
+                var current = event.item.index;
+                var hash = $(event.target).find(".owl-item").eq(current).children().attr('data-hash');
+                $('.' + hash).siblings().removeClass('active');
+                $('.' + hash).addClass('active');
+            });
+          
+
+   </script>
+ 
 
 </body>
 
